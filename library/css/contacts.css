@@ -1,0 +1,126 @@
+#whole_space{
+	/*background-image: url("../../media/etc/stardust.png");*/
+}
+
+#whole_space h1, #whole_space h2, #whole_space  h3, #whole_space  p{
+	/*color: white;*/
+}
+
+#whole_space h1.arrow{
+	  /*background: url('../../media/h1-bg-white.png') no-repeat center bottom;*/
+}
+
+/*Comittees*/
+
+#advisor{
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+#advisor h1{
+	color:black;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+#advisor h3{
+	color: black;
+}
+
+#advisor h2:after{
+	margin-bottom: 0px;
+}
+
+#comittee_select a{
+	color: black;
+}
+
+.owl-carousel{
+	margin-bottom: 30px;
+}
+
+.owl-wrapper-outer{
+	padding: 20px 0px 20px 0px;
+}
+
+
+/*.comittee_member:hover{
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}*/
+
+@media (min-width: 768px) {
+	#advisor{
+		background-color: #f7f7f7;
+		border-radius: 5px;
+		position: absolute;
+		top: -8%;
+		right: 0;
+		display: inline-block;
+		padding: 10px;
+		-webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+	    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+	    border-radius: 5px;
+	}
+}
+
+/*General Assembly*/
+#general_assembly_carousel{
+	width: 100%;
+	/*background-color: #f7f7f7;*/
+	background-image: url("../../media/etc/stardust.png");
+}
+
+#general_assembly h1.arrow{
+	color: white;
+	background: url('../../media/h1-bg-white.png') no-repeat center bottom;
+}
+
+#ga_carousel{
+	margin-bottom: 25px;
+}
+
+.ga_member{
+	/*background-color: #fff;*/
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.ga_member ul{
+	text-align: left;
+	display: inline-block;
+}
+
+.ga_member h1{
+	color: white;
+}
+
+.ga_member li{
+	list-style-type: circle;
+	color: white;
+}
+
+.ga_member a{
+	/*color: black;*/
+}
+
+/*Custom contact*/
+#contact_us{
+	background-color: white;
+}
+
+.light-box{
+	background-color: #f7f7f7;
+}

@@ -1,0 +1,32 @@
+#login{
+    display: inline-block;
+    margin: 100px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    width: 400px;
+}
+
+.error{
+	color: red;
+}
+
+ul#adminmenu{
+	margin: 10px;
+}
+
+ul#adminmenu li{
+	display: inline;
+}
+
+#logout_button{
+	float:right;
+}
+
+a{
+	color: black;
+}

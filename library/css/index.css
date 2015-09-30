@@ -1,0 +1,422 @@
+/* LANDING */
+#landing_part{
+    position: relative;
+    overflow: hidden;
+    background-image: url("../../media/etc/stardust.png");
+    background-repeat: repeat;
+    height: 50%;
+    min-height: 430px;
+    z-index: 99;
+}
+
+.no_news_part{
+    display: none;
+}
+
+#own_nav{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: block;
+    width: 90%;
+}
+
+#landing_logo{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+#landing_title{
+    position: absolute; 
+    top: 30%; 
+    color: white; 
+    display: block; 
+    width: 100%;
+    z-index: 1;
+}
+
+#earth{
+    height: 64px; 
+    width: 64px; 
+    position: absolute; 
+    top: 75%; 
+    left: 47.5%;
+    z-index:0;
+}
+
+#explore-button{
+    padding: 10px 20px;
+}
+
+#first{
+    background: #f7f7f7;
+    padding: 30px 0px;
+}
+
+#second{
+    position: relative;
+    z-index: 2;
+}
+
+/*Nav-tabs*/
+.nav-tabs{
+    border: none;
+    display: table;
+    margin: 20px auto 20px auto;
+}
+
+.nav-tabs > li{
+    margin-left: -2px;
+    list-style: none;
+    position: relative;
+    display: block;
+}
+
+.nav-tabs>li>a {
+    border: 1px solid #444349;
+    border-radius: 0px;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-tabs>li:first-child>a {
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nav-tabs>li:last-child>a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #444349;
+    border: 1px solid #444349;
+    z-index: 100;
+    color: #fff!important;
+}
+
+.nav-tabs>li>a:hover{
+    background-color: #444349;
+    border: 1px solid #444349;
+    z-index: 100;
+    color: #fff!important;
+}
+
+.nav-tabs .fa{
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+@media (max-width: 675px){
+    .nav-tabs{
+        display:block;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .nav-tabs>li {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+
+    .nav-tabs>li>a {
+        width: 100%;
+        border: 1px solid #444349;
+    }
+
+    .nav-tabs>li:first-child>a {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .nav-tabs>li:last-child>a {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+    }
+}
+
+
+/* SECOND */
+#platform{
+    z-index: 0;
+    height: 64px;
+    width: 64px;
+    margin-bottom: 140px;
+    /*height: 200px;
+    width: 200px;*/
+    /*-webkit-transform: rotate(70deg) skew(0, -56deg);
+    transform: rotate(70deg) skew(0, -56deg);
+    background-color: #f7f7f7;
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;*/
+}
+
+.attraction{
+    position: absolute;
+    display: inline;
+    z-index: 2;
+}
+
+#eiffel-about{
+    top: 2%;
+    left: 57%;
+    z-index: 3;
+    transform: scale(0.8);
+}
+
+#bigben-about{
+    top: 0%;
+    left: 31%;
+}
+
+#brazil-about{
+    top:50%;
+    left: 28%;
+    z-index: 3;
+}
+
+#sydney-about{
+    top: 57%;
+    left: 61%;
+}
+
+#aztec-about{
+    top: 46%;
+    left: 20%;
+    transform: scale(0.7);
+}
+
+#colosseum-about{
+    top: 7%;
+    left: 49%;
+    transform: scale(0.7);
+}
+
+#windmill-about{
+    top: 35%;
+    left: 49%;
+}
+
+#sf-about{
+    top: 34%;
+    left: 28%;
+    transform: scale(1.3);
+}
+
+#tajmahal-about{
+    top: 31%;
+    left: 62%;
+    transform: scale(0.7);
+}
+
+#communicate, #collaborate, #celebrate{
+    padding: 20px 20px 20px 20px;
+    height: 350px;
+}
+
+#communicate h3, #collaborate h3, #celebrate h3{
+    color: white;
+}
+
+#communicate p, #collaborate p, #celebrate p{
+    color: white;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+#communicate img, #collaborate img, #celebrate img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+}
+
+#communicate{
+    background: #FFB142;
+}
+
+#collaborate{
+    background: #0486CA;
+}
+
+#celebrate{
+    background: #FD3E8E;
+}
+
+/* POSTS */
+#posts_part{
+    position: relative;
+    z-index: 99;
+    padding: 20px 20px;
+    background-color: #f7f7f7;
+}
+
+#posts_part a.post_title {
+    color: black;
+    text-decoration: none;
+}
+
+#posts_part a{
+    color: black;
+    text-decoration: underline;
+}
+
+.post_isc_custom2015{
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+    border-bottom: solid 2px #3dc9b3;
+    color: black;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+
+.post_isc_custom2015 h1{
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.post_isc_custom2015 div.postcontent p{
+    color: black;
+}
+
+.continue-to-read{
+    background-image: url("../../media/etc/stardust.png");
+}
+
+.continue-to-read a{
+    color: white!important;
+    text-decoration: none!important;
+    margin-right: 5px;
+}
+
+/*TESTIMONY*/
+
+#testimony-section{
+    margin: 0px 0px 10px 0px;
+}
+
+.testimony iframe{
+    height: 150px;
+}
+
+.testimony{
+    position: relative;
+    min-height: 550px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.testimony-left{
+    background-position: 30% 0%;
+}
+
+.testimony-right{
+    background-position: 80% 0%;
+}
+
+.testimony-box{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 20px 29px 20px;
+    text-align: center;
+}
+
+.testimony-box small{
+    display: block;
+    text-align: center;
+}
+
+/*#adli-testimony{
+    background-image: url("../../media/people/adli_cover_new.png");
+}
+
+#ras-testimony{
+    background-image: url("../../media/people/ras_cover.png");
+}*/
+
+#steve-testimony{
+    background-image: url("../../media/people/cover/steve_cover-reduced.png");
+}
+
+#marsilia-testimony{
+    background-image: url("../../media/people/cover/marsilia_cover-reduced.png");
+}
+
+#rose-testimony{
+    background-image: url("../../media/people/cover/rose_cover-reduced.png");
+}
+
+#ryan-testimony{
+    background-image: url("../../media/people/cover/ryan_cover-reduced.png");
+}
+
+/*#rashid-testimony{
+    background-image: url("../../media/people/rashid_cover.png");
+}
+
+#zenia-testimony{
+    background-image: url("../../media/people/zenia_cover.png");
+}*/
+
+/*MEDIA QUERIES*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .no_news_part{
+        display: block;
+        position: relative;
+    }
+
+    .testimony-left .testimony-box {
+        border-top-left-radius: 30px;
+    }
+
+    .testimony-right .testimony-box {
+        border-top-right-radius: 30px;
+    }
+
+    #landing_part{
+        min-height: 100%;
+    }
+
+    #posts_part{
+        height: 100%;
+        min-height: 100%;
+        overflow-y: auto;
+    }
+
+    .testimony iframe{
+        height: 300px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 970px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
